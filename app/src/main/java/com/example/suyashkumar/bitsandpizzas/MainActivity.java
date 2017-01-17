@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
         Fragment fragment;
         switch (position){
             case 1:
-                fragment = new PizzaFragmentFragment();
+                fragment = new PizzaMaterialFragment();
                 break;
             case 2:
                 fragment = new PastaFragment();
